@@ -15,11 +15,6 @@ client.on("message", async message => {
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const comando = args.shift().toLowerCase();
 
-    if(comando === "baia"){
-        const pic = new Discord.MessageAttachment('https://i.imgur.com/KzjuZNo.png')
-        return message.reply(pic)
-    }
-   
     if(comando === "ping"){
         const m = await message.channel.send("Ping?")
         m.edit(`Pong! A Latência é ${m.createdTimestamp - message.createdTimestamp}ms.`)
