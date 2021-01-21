@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
         .setTitle('')//titulo
         .setDescription(`**Segue a lista de comandos:**\n
             \n    !help = Lista de comandos;
-            \n    !limpar = Limpa algumas mensagens do chat;
+            \n    !limpar <quantidade> = Limpa n mensagens do chat;
             \n    !ping = Latência do usuário;
             \n    !dado <lados> = Roda um dado de n lados;
             \n    !msg <mensagem> = Mensagem do bot;
