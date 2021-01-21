@@ -12,7 +12,7 @@ exports.run = async (client, message, args) => {
             \n    !limpar = Limpa algumas mensagens do chat;
             \n    !ping = Latência do usuário;
             \n    !dado <lados> = Roda um dado de n lados;
-            \n    !say <mensagem> = Mensagem do bot;
+            \n    !msg <mensagem> = Mensagem do bot;
             \n    !corneta = Áudio de corneta do canal de voz;
             \n\n    https://github.com/lucaspgraciano`)//conteudo principal
         .setImage()//conteudo multimidia
