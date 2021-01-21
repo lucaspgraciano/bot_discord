@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
     }
 
     voice.channel.join().then((connection) => {
-        const dispatcher = connection.play(path.join(__dirname, './audio/corneta.mp3'));
+        const dispatcher = connection.play(path.join(__dirname, './arquivo_de_audio.mp3'));
         dispatcher.on('finish', () => voice.channel.leave());
     })
 
