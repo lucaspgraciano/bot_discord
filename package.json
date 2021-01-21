@@ -1,7 +1,7 @@
 {
   "name": "bot_legal",
   "version": "1.0.0",
-  "description": "Testando um BOT para Discord utilizando JavaScript",
+  "description": "Testando um BOT para Discord utilizando JavaScript, NodeJs e a bib DiscordJS",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,15 @@
   "author": "Lucas Piacenti Graciano",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
     "core-js": "^3.8.2",
     "discord.js": "^12.5.1",
     "download-file": "^0.1.5",
+    "ffmpeg": "0.0.4",
     "gif-to-apng": "^0.1.2",
     "jimp": "^0.6.0",
+    "node-opus": "^0.3.3",
+    "request": "^2.88.2",
     "uuid": "^8.3.2"
   }
 }
