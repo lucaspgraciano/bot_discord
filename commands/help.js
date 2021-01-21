@@ -14,6 +14,7 @@ exports.run = async (client, message, args) => {
             \n    !dado <lados> = Roda um dado de n lados;
             \n    !msg <mensagem> = Mensagem do bot;
             \n    !corneta = Áudio de corneta do canal de voz;
+            \n    !cores <cor> = Altera a cor do seu nome;
             \n\n    https://github.com/lucaspgraciano`)//conteudo principal
         .setImage()//conteudo multimidia
         .setThumbnail()//avatar
